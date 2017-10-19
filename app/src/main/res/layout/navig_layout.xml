@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_RadioButton1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+
+        <RadioButton
+            android:id="@+id/home_RadioButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+
+        <RadioButton
+            android:id="@+id/home_RadioButton3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+
+        <RadioButton
+            android:id="@+id/home_RadioButton4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+    </RadioGroup>   <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_RadioButton5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+
+        <RadioButton
+            android:id="@+id/home_RadioButton6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+
+        <RadioButton
+            android:id="@+id/home_RadioButton7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+
+        <RadioButton
+            android:id="@+id/home_RadioButton8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_nav_class_press"
+            android:gravity="center"
+            android:text="限时折扣" />
+    </RadioGroup>
+</LinearLayout>

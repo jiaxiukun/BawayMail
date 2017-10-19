@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/topClass"
+        layout="@layout/include_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="80dip"
+            android:layout_height="match_parent"
+            android:scrollbarSize="3dip"
+            android:scrollbarThumbVertical="@color/main"
+            android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+        <ExpandableListView
+            android:id="@+id/class_elv"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:childDivider="#c8c7cc"
+            android:divider="@null"
+            android:dividerHeight="1px"
+            android:gravity="center"
+            android:groupIndicator="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shop_detail"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <include
+        android:id="@+id/topInclude"
+        layout="@layout/include_search"/>
+
+    <include
+        android:id="@+id/screenInclude"
+        layout="@layout/include_screen"
+        android:layout_marginBottom="1px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/mainInclude"
+        layout="@layout/include_recycler_view_line"/>
+</LinearLayout>

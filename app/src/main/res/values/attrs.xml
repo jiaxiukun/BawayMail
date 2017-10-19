@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="VerticalSwitchTextView">
+        <attr name="switchDuaration" format="integer"/>
+        <attr name="idleDuaration" format="integer"/>
+        <attr name="switchOrientation">
+            <enum name="up"  value="0"/>
+            <enum name="down"  value="1"/>
+        </attr>
+        <attr name="alignment">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
+
